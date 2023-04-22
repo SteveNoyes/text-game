@@ -51,11 +51,6 @@ while (true) {
   }
 }
 
-
-
-
-
-
 // Define the game map
 const map = [
   ['You are in a dark room. There is a door to the north.', 'north', 1],
