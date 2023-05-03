@@ -191,7 +191,7 @@ while (true) {
     console.log('You have:', inventory.join(', '));
   } else if (input === 'sit on bench') {
     if (playerPos === 4) {
-      console.log('You sit on the bench and enjoy the flowers.');
+      console.log('You sit on the bench and enjoy some flowers.');
     } else {
       console.log('There is no bench here to sit on.');
     }
@@ -199,8 +199,6 @@ while (true) {
     console.log('I do not understand that command.');
   }
 }
-
-
 
 // I added two new rooms to the map array - a garden to the north of the dark room and a kitchen to the south of the bright room. I also defined a new inventory array to keep track of the items the player collects during the game.
 
